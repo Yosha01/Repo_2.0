@@ -159,3 +159,13 @@
 # my_list = [1, 2, 3, 4, 5]
 # my_list.clear()
 # print(my_list)
+
+# len()
+# my_list = [1, 2, 3, 4, 5]
+# print(len(my_list))
+
+# name = "Alice"
+# print(len(name))
+
+# user = {"name": "Alice", "age": 30, "city": "New York"}
+# print(len(user))
