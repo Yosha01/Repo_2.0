@@ -76,19 +76,86 @@
 
 # --------------------------------
 # Task 1 
-price_per_croissant = 1.04
-price_per_glass = 2.09
-price_per_coffee_pack = 3.12
+# price_per_croissant = 1.04
+# price_per_glass = 2.09
+# price_per_coffee_pack = 3.12
 
-num_croissants = int(input("How many croissants do you want to buy? "))
-num_glasses = int(input("How many glasses do you want to buy? "))
-num_coffee_packs = int(input("How many coffee packs do you want to buy? "))
+# num_croissants = int(input("How many croissants do you want to buy? "))
+# num_glasses = int(input("How many glasses do you want to buy? "))
+# num_coffee_packs = int(input("How many coffee packs do you want to buy? "))
 
-total_cost = (num_croissants * price_per_croissant) + \
-             (num_glasses * price_per_glass) + \
-             (num_coffee_packs * price_per_coffee_pack)
+# total_cost = (num_croissants * price_per_croissant) + \
+#              (num_glasses * price_per_glass) + \
+#              (num_coffee_packs * price_per_coffee_pack)
 
-total_dollars = int (total_cost)
-total_cents = int ((total_cost - total_dollars) * 100)
+# total_dollars = int (total_cost)
+# total_cents = int ((total_cost - total_dollars) * 100)
 
-print (f"You need to pay {total_dollars} dollars and {total_cents} cents.")
+# print (f"You need to pay {total_dollars} dollars and {total_cents} cents.")
+
+
+#Collections
+# LISTS
+# my_list = [1, 2, 3, 4, 5]
+# print (my_list)
+
+# # Tuples
+# my_tuple = (1,2,3,4,5)
+# print (my_tuple)
+
+# # Sets
+# my_set = {1,2,3,4,5}
+# print (my_set)
+
+# Dicts 
+# my_dict = {"name": "Alice", "age": 30, "city": "New York"}
+# print (my_dict)
+
+# append()
+# my_list = []
+# my_list.append("первый")
+# my_list.append("второй")
+# my_list.append("третий")
+# print(my_list)
+
+# remove()
+# my_list = [1, 2, 3, 4, 5]
+# my_list.remove(3)
+# print(my_list)
+
+# indexing
+# my_list_q = [10, 20, 30, 40, 50]
+# first_number = my_list_q[0]
+# print(first_number)
+# last_number = my_list_q[-1]
+# print(last_number)
+
+# changing values in a list
+# my_list = [1, 2, 3, 4, 5]
+# my_list[2] = 99
+# print(my_list)
+
+# pop()
+# my_list = [1, 2, 3, 4, 5]
+# popped_value = my_list.pop(2)
+# print(popped_value)
+# print(my_list)
+
+# insert()
+# my_list = [1, 2, 4, 5]
+# my_list.insert(2, 3)
+# print(my_list)
+
+# count()
+# my_list =[1,2,3,2,3,4,1]
+# print(my_list.count(2))
+# print (my_list.count(3))
+
+# index()
+# my_list = [10, 20, 30, 40, 50]
+# print(my_list.index(30))
+
+# clear()
+# my_list = [1, 2, 3, 4, 5]
+# my_list.clear()
+# print(my_list)
